@@ -1,0 +1,192 @@
+[
+    {
+        "label": "pika",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pika",
+        "description": "pika",
+        "detail": "pika",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "RabbitMQConfig",
+        "importPath": "src.configs.rabbitmq_config",
+        "description": "src.configs.rabbitmq_config",
+        "isExtraImport": true,
+        "detail": "src.configs.rabbitmq_config",
+        "documentation": {}
+    },
+    {
+        "label": "RabbitMQConfig",
+        "importPath": "src.configs.rabbitmq_config",
+        "description": "src.configs.rabbitmq_config",
+        "isExtraImport": true,
+        "detail": "src.configs.rabbitmq_config",
+        "documentation": {}
+    },
+    {
+        "label": "RabbitMQConfig",
+        "importPath": "src.configs.rabbitmq_config",
+        "description": "src.configs.rabbitmq_config",
+        "isExtraImport": true,
+        "detail": "src.configs.rabbitmq_config",
+        "documentation": {}
+    },
+    {
+        "label": "PokeAPI",
+        "importPath": "src.controller.pokemon",
+        "description": "src.controller.pokemon",
+        "isExtraImport": true,
+        "detail": "src.controller.pokemon",
+        "documentation": {}
+    },
+    {
+        "label": "RPCClientConsumer",
+        "importPath": "src.services.rabbitmq.consumer",
+        "description": "src.services.rabbitmq.consumer",
+        "isExtraImport": true,
+        "detail": "src.services.rabbitmq.consumer",
+        "documentation": {}
+    },
+    {
+        "label": "RpcClientProducer",
+        "importPath": "src.services.rabbitmq.producer",
+        "description": "src.services.rabbitmq.producer",
+        "isExtraImport": true,
+        "detail": "src.services.rabbitmq.producer",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "PokemonServiceConsumer",
+        "importPath": "src.services.pokemon.pokemon_service",
+        "description": "src.services.pokemon.pokemon_service",
+        "isExtraImport": true,
+        "detail": "src.services.pokemon.pokemon_service",
+        "documentation": {}
+    },
+    {
+        "label": "PokemonServiceProducer",
+        "importPath": "src.services.pokemon.pokemon_service",
+        "description": "src.services.pokemon.pokemon_service",
+        "isExtraImport": true,
+        "detail": "src.services.pokemon.pokemon_service",
+        "documentation": {}
+    },
+    {
+        "label": "RabbitMQConfig",
+        "kind": 6,
+        "importPath": "src.configs.rabbitmq_config",
+        "description": "src.configs.rabbitmq_config",
+        "peekOfCode": "class RabbitMQConfig:\n    def __init__(self, host=\"localhost\", username=\"guest\", password=\"guest\") -> None:\n        self.__user_credentials = pika.PlainCredentials(username, password)\n        self.__host = host\n        self.connection = None\n        self.channel = None\n    def __enter__(self):\n        self.connection = pika.BlockingConnection(\n            pika.ConnectionParameters(\n                host=self.__host, credentials=self.__user_credentials",
+        "detail": "src.configs.rabbitmq_config",
+        "documentation": {}
+    },
+    {
+        "label": "PokeAPI",
+        "kind": 6,
+        "importPath": "src.controller.pokemon",
+        "description": "src.controller.pokemon",
+        "peekOfCode": "class PokeAPI:\n    def get_pokemons(self):\n        result = requests.get(\"https://pokeapi.co/api/v2/pokemon?limit=50\")\n        return [pokemon[\"name\"] for pokemon in result.json()[\"results\"]]\n    def get_pokemon_and_abilities(self, pokemons):\n        result = [\n            {\"pokemon\": pokemon, \"abilities\": self.__get_abilities(pokemon)}\n            for pokemon in pokemons\n        ]\n        return result",
+        "detail": "src.controller.pokemon",
+        "documentation": {}
+    },
+    {
+        "label": "PokemonServiceProducer",
+        "kind": 6,
+        "importPath": "src.services.pokemon.pokemon_service",
+        "description": "src.services.pokemon.pokemon_service",
+        "peekOfCode": "class PokemonServiceProducer:\n    def __init__(self) -> None:\n        self.controller = PokeAPI()\n        self.producer = RpcClientProducer(\"pokemon_queue\", \"pokemon_exchange\")\n    def send_pokemons_to_get_ability(self):\n        pokemons = self.controller.get_pokemons()\n        payload = (pokemons, \"get abilities\")\n        response = self.producer.call(payload, \"get_abilities\")\n        return response\nclass PokemonServiceConsumer:",
+        "detail": "src.services.pokemon.pokemon_service",
+        "documentation": {}
+    },
+    {
+        "label": "PokemonServiceConsumer",
+        "kind": 6,
+        "importPath": "src.services.pokemon.pokemon_service",
+        "description": "src.services.pokemon.pokemon_service",
+        "peekOfCode": "class PokemonServiceConsumer:\n    def __init__(self) -> None:\n        self.controller = PokeAPI()\n        self.consumer = RPCClientConsumer(\"pokemon_queue\", \"pokemon_exchange\")\n    def get_abilities_and_pokemons(self):\n        self.consumer.start_consuming(\n            \"get_abilities\", self.controller.get_pokemon_and_abilities\n        )",
+        "detail": "src.services.pokemon.pokemon_service",
+        "documentation": {}
+    },
+    {
+        "label": "rmq",
+        "kind": 5,
+        "importPath": "src.services.pokemon.pokemon_service",
+        "description": "src.services.pokemon.pokemon_service",
+        "peekOfCode": "rmq = RabbitMQConfig()\nclass PokemonServiceProducer:\n    def __init__(self) -> None:\n        self.controller = PokeAPI()\n        self.producer = RpcClientProducer(\"pokemon_queue\", \"pokemon_exchange\")\n    def send_pokemons_to_get_ability(self):\n        pokemons = self.controller.get_pokemons()\n        payload = (pokemons, \"get abilities\")\n        response = self.producer.call(payload, \"get_abilities\")\n        return response",
+        "detail": "src.services.pokemon.pokemon_service",
+        "documentation": {}
+    },
+    {
+        "label": "RPCClientConsumer",
+        "kind": 6,
+        "importPath": "src.services.rabbitmq.consumer",
+        "description": "src.services.rabbitmq.consumer",
+        "peekOfCode": "class RPCClientConsumer:\n    def __init__(self, queue_name: str, exchange_name):\n        self.queue = queue_name\n        self.exchange = exchange_name\n        self.rmq_config = RabbitMQConfig()\n        self.action = None\n    def __on_request(self, ch, method, props, body):\n        payload, description = json.loads(body)\n        print(f\"{description}\")\n        response = self.action(payload)",
+        "detail": "src.services.rabbitmq.consumer",
+        "documentation": {}
+    },
+    {
+        "label": "RpcClientProducer",
+        "kind": 6,
+        "importPath": "src.services.rabbitmq.producer",
+        "description": "src.services.rabbitmq.producer",
+        "peekOfCode": "class RpcClientProducer:\n    def __init__(self, queue_name: str, exchange_name):\n        self.queue_name = queue_name\n        self.rmq_config = RabbitMQConfig()\n        self.correlation_id = None\n        self.response = None\n        self.callback_queue = None\n        self.exchange = exchange_name\n    def on_response(self, ch, method, props, body):\n        if self.correlation_id == props.correlation_id:",
+        "detail": "src.services.rabbitmq.producer",
+        "documentation": {}
+    },
+    {
+        "label": "pokemon_service",
+        "kind": 5,
+        "importPath": "consumers",
+        "description": "consumers",
+        "peekOfCode": "pokemon_service = PokemonServiceConsumer()\npokemon_service.get_abilities_and_pokemons()",
+        "detail": "consumers",
+        "documentation": {}
+    },
+    {
+        "label": "pokemon_service",
+        "kind": 5,
+        "importPath": "producers",
+        "description": "producers",
+        "peekOfCode": "pokemon_service = PokemonServiceProducer()\nresponse = pokemon_service.send_pokemons_to_get_ability()\nprint(response)",
+        "detail": "producers",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "producers",
+        "description": "producers",
+        "peekOfCode": "response = pokemon_service.send_pokemons_to_get_ability()\nprint(response)",
+        "detail": "producers",
+        "documentation": {}
+    }
+]

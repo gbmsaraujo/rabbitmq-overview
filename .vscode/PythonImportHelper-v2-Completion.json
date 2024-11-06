@@ -1,0 +1,850 @@
+[
+    {
+        "label": "pika",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pika",
+        "description": "pika",
+        "detail": "pika",
+        "documentation": {}
+    },
+    {
+        "label": "channel",
+        "importPath": "rabbitmq_config",
+        "description": "rabbitmq_config",
+        "isExtraImport": true,
+        "detail": "rabbitmq_config",
+        "documentation": {}
+    },
+    {
+        "label": "channel",
+        "importPath": "rabbitmq_config",
+        "description": "rabbitmq_config",
+        "isExtraImport": true,
+        "detail": "rabbitmq_config",
+        "documentation": {}
+    },
+    {
+        "label": "connection_rmq",
+        "importPath": "rabbitmq_config",
+        "description": "rabbitmq_config",
+        "isExtraImport": true,
+        "detail": "rabbitmq_config",
+        "documentation": {}
+    },
+    {
+        "label": "channel",
+        "importPath": "rabbitmq_config",
+        "description": "rabbitmq_config",
+        "isExtraImport": true,
+        "detail": "rabbitmq_config",
+        "documentation": {}
+    },
+    {
+        "label": "channel",
+        "importPath": "rabbitmq_config",
+        "description": "rabbitmq_config",
+        "isExtraImport": true,
+        "detail": "rabbitmq_config",
+        "documentation": {}
+    },
+    {
+        "label": "channel",
+        "importPath": "rabbitmq_config",
+        "description": "rabbitmq_config",
+        "isExtraImport": true,
+        "detail": "rabbitmq_config",
+        "documentation": {}
+    },
+    {
+        "label": "channel",
+        "importPath": "rabbitmq_config",
+        "description": "rabbitmq_config",
+        "isExtraImport": true,
+        "detail": "rabbitmq_config",
+        "documentation": {}
+    },
+    {
+        "label": "channel",
+        "importPath": "rabbitmq_config",
+        "description": "rabbitmq_config",
+        "isExtraImport": true,
+        "detail": "rabbitmq_config",
+        "documentation": {}
+    },
+    {
+        "label": "connection_rmq",
+        "importPath": "rabbitmq_config",
+        "description": "rabbitmq_config",
+        "isExtraImport": true,
+        "detail": "rabbitmq_config",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "channel",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "channel",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "connection",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "channel",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "channel",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "connection_rmq",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "channel",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "connection_rmq",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "RabbitMQConfig",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "RabbitMQConfig",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "RabbitMQConfig",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "RabbitMQConfig",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "logs_queues",
+        "importPath": "constants",
+        "description": "constants",
+        "isExtraImport": true,
+        "detail": "constants",
+        "documentation": {}
+    },
+    {
+        "label": "ROUTING_LOG_KEY",
+        "importPath": "constants",
+        "description": "constants",
+        "isExtraImport": true,
+        "detail": "constants",
+        "documentation": {}
+    },
+    {
+        "label": "logs_messages",
+        "importPath": "constants",
+        "description": "constants",
+        "isExtraImport": true,
+        "detail": "constants",
+        "documentation": {}
+    },
+    {
+        "label": "logs_queues",
+        "importPath": "constants",
+        "description": "constants",
+        "isExtraImport": true,
+        "detail": "constants",
+        "documentation": {}
+    },
+    {
+        "label": "logs_queues",
+        "importPath": "constants",
+        "description": "constants",
+        "isExtraImport": true,
+        "detail": "constants",
+        "documentation": {}
+    },
+    {
+        "label": "logs_queues",
+        "importPath": "constants",
+        "description": "constants",
+        "isExtraImport": true,
+        "detail": "constants",
+        "documentation": {}
+    },
+    {
+        "label": "logs_messages",
+        "importPath": "constants",
+        "description": "constants",
+        "isExtraImport": true,
+        "detail": "constants",
+        "documentation": {}
+    },
+    {
+        "label": "logs_queues",
+        "importPath": "constants",
+        "description": "constants",
+        "isExtraImport": true,
+        "detail": "constants",
+        "documentation": {}
+    },
+    {
+        "label": "OperationsRpcClientProducer",
+        "importPath": "producer",
+        "description": "producer",
+        "isExtraImport": true,
+        "detail": "producer",
+        "documentation": {}
+    },
+    {
+        "label": "ClientOperationConsumer",
+        "importPath": "client_consumer",
+        "description": "client_consumer",
+        "isExtraImport": true,
+        "detail": "client_consumer",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "EXCHANGE_NAME",
+        "importPath": "consts",
+        "description": "consts",
+        "isExtraImport": true,
+        "detail": "consts",
+        "documentation": {}
+    },
+    {
+        "label": "EXCHANGE_TYPE",
+        "importPath": "consts",
+        "description": "consts",
+        "isExtraImport": true,
+        "detail": "consts",
+        "documentation": {}
+    },
+    {
+        "label": "EXCHANGE_NAME",
+        "importPath": "consts",
+        "description": "consts",
+        "isExtraImport": true,
+        "detail": "consts",
+        "documentation": {}
+    },
+    {
+        "label": "EXCHANGE_TYPE",
+        "importPath": "consts",
+        "description": "consts",
+        "isExtraImport": true,
+        "detail": "consts",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "RabbitMQConfig",
+        "importPath": "src.configs.rabbitmq_config",
+        "description": "src.configs.rabbitmq_config",
+        "isExtraImport": true,
+        "detail": "src.configs.rabbitmq_config",
+        "documentation": {}
+    },
+    {
+        "label": "RabbitMQConfig",
+        "importPath": "src.configs.rabbitmq_config",
+        "description": "src.configs.rabbitmq_config",
+        "isExtraImport": true,
+        "detail": "src.configs.rabbitmq_config",
+        "documentation": {}
+    },
+    {
+        "label": "RabbitMQConfig",
+        "importPath": "src.configs.rabbitmq_config",
+        "description": "src.configs.rabbitmq_config",
+        "isExtraImport": true,
+        "detail": "src.configs.rabbitmq_config",
+        "documentation": {}
+    },
+    {
+        "label": "PokeAPI",
+        "importPath": "src.controller.pokemon",
+        "description": "src.controller.pokemon",
+        "isExtraImport": true,
+        "detail": "src.controller.pokemon",
+        "documentation": {}
+    },
+    {
+        "label": "RPCClientConsumer",
+        "importPath": "src.services.rabbitmq.consumer",
+        "description": "src.services.rabbitmq.consumer",
+        "isExtraImport": true,
+        "detail": "src.services.rabbitmq.consumer",
+        "documentation": {}
+    },
+    {
+        "label": "RpcClientProducer",
+        "importPath": "src.services.rabbitmq.producer",
+        "description": "src.services.rabbitmq.producer",
+        "isExtraImport": true,
+        "detail": "src.services.rabbitmq.producer",
+        "documentation": {}
+    },
+    {
+        "label": "PokemonServiceConsumer",
+        "importPath": "src.services.pokemon.pokemon_service",
+        "description": "src.services.pokemon.pokemon_service",
+        "isExtraImport": true,
+        "detail": "src.services.pokemon.pokemon_service",
+        "documentation": {}
+    },
+    {
+        "label": "PokemonServiceProducer",
+        "importPath": "src.services.pokemon.pokemon_service",
+        "description": "src.services.pokemon.pokemon_service",
+        "isExtraImport": true,
+        "detail": "src.services.pokemon.pokemon_service",
+        "documentation": {}
+    },
+    {
+        "label": "on_message_received",
+        "kind": 2,
+        "importPath": "01-intro.consumer",
+        "description": "01-intro.consumer",
+        "peekOfCode": "def on_message_received(ch, method, properties, body):\n    print(f\"received new message: {body}\")\nchannel.queue_declare(queue=\"letterbox\")\nchannel.basic_consume(\n    queue=\"letterbox\", auto_ack=True, on_message_callback=on_message_received\n)\nprint(\"Starting consuming....\")\nchannel.start_consuming()",
+        "detail": "01-intro.consumer",
+        "documentation": {}
+    },
+    {
+        "label": "message",
+        "kind": 5,
+        "importPath": "01-intro.producer",
+        "description": "01-intro.producer",
+        "peekOfCode": "message = \"Hello, this is my first message\"\nchannel.basic_publish(exchange=\"\", routing_key=\"letterbox\", body=message)\nprint(f\"Sent message: {message}\")\nconnection_rmq.close()",
+        "detail": "01-intro.producer",
+        "documentation": {}
+    },
+    {
+        "label": "callback",
+        "kind": 2,
+        "importPath": "02-working-queus.consumer",
+        "description": "02-working-queus.consumer",
+        "peekOfCode": "def callback(ch, method, properties, body):\n    msg = json.loads(body.decode())\n    print(f\" Message Received: {msg['text']}\")\n    time.sleep(msg[\"time\"])\n    # Garante manualmente que se o worker encerrar por algum motivo ao longo de um processo, ele não descartará o processo\n    # que estava sendo executado, e executará novamente\n    # a task vai esperar que o processamento seja concluído.\n    channel.basic_ack(delivery_tag=method.delivery_tag)\n    print(\"Done!\")\nchannel.queue_declare(queue=\"hello\")",
+        "detail": "02-working-queus.consumer",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "02-working-queus.producer",
+        "description": "02-working-queus.producer",
+        "peekOfCode": "result = channel.queue_declare(queue=\"\", durable=True)\nchannel.queue_bind(exchange=\"logs\", queue=result.method.)",
+        "detail": "02-working-queus.producer",
+        "documentation": {}
+    },
+    {
+        "label": "connection_parameters",
+        "kind": 5,
+        "importPath": "02-working-queus.rabbitmq_config",
+        "description": "02-working-queus.rabbitmq_config",
+        "peekOfCode": "connection_parameters = pika.ConnectionParameters(\"localhost\")\nconnection_rmq = pika.BlockingConnection(connection_parameters)\nchannel = connection_rmq.channel()",
+        "detail": "02-working-queus.rabbitmq_config",
+        "documentation": {}
+    },
+    {
+        "label": "connection_rmq",
+        "kind": 5,
+        "importPath": "02-working-queus.rabbitmq_config",
+        "description": "02-working-queus.rabbitmq_config",
+        "peekOfCode": "connection_rmq = pika.BlockingConnection(connection_parameters)\nchannel = connection_rmq.channel()",
+        "detail": "02-working-queus.rabbitmq_config",
+        "documentation": {}
+    },
+    {
+        "label": "channel",
+        "kind": 5,
+        "importPath": "02-working-queus.rabbitmq_config",
+        "description": "02-working-queus.rabbitmq_config",
+        "peekOfCode": "channel = connection_rmq.channel()",
+        "detail": "02-working-queus.rabbitmq_config",
+        "documentation": {}
+    },
+    {
+        "label": "callback",
+        "kind": 2,
+        "importPath": "03-exchange.consumer",
+        "description": "03-exchange.consumer",
+        "peekOfCode": "def callback(ch, method, properties, body):\n    print(f\"Message Received: {method.routing_key} - {body.decode()}\")\n    print(\"Done!\")\n# Declarar a exchange\nchannel.exchange_declare(exchange=\"direct_logs\", exchange_type=\"direct\")\n# Declarar e vincular filas\nfor routing in routings:\n    channel.queue_declare(\n        queue=routing[\"queue\"], durable=True\n    )  # Remova exclusive=True se quiser persistência",
+        "detail": "03-exchange.consumer",
+        "documentation": {}
+    },
+    {
+        "label": "routings",
+        "kind": 5,
+        "importPath": "03-exchange.consumer",
+        "description": "03-exchange.consumer",
+        "peekOfCode": "routings = [\n    {\"queue\": \"critical_logs_queue\", \"routing\": \"critical_logs\"},\n    {\"queue\": \"general_logs_queue\", \"routing\": \"general_logs\"},\n]\ndef callback(ch, method, properties, body):\n    print(f\"Message Received: {method.routing_key} - {body.decode()}\")\n    print(\"Done!\")\n# Declarar a exchange\nchannel.exchange_declare(exchange=\"direct_logs\", exchange_type=\"direct\")\n# Declarar e vincular filas",
+        "detail": "03-exchange.consumer",
+        "documentation": {}
+    },
+    {
+        "label": "set_routing_key",
+        "kind": 2,
+        "importPath": "03-exchange.producer",
+        "description": "03-exchange.producer",
+        "peekOfCode": "def set_routing_key(severity: str):\n    return \"critical_logs\" if severity == \"critical\" else \"general_logs\"\nchannel.exchange_declare(exchange=\"direct_logs\", exchange_type=\"direct\")\nfor msg in messages:\n    channel.basic_publish(\n        exchange=\"direct_logs\",\n        routing_key=set_routing_key(msg[\"severity\"]),\n        body=msg[\"msg\"],\n    )\n    print(f\"The message: {msg['msg']} with severity: {msg['severity']} was sent\")",
+        "detail": "03-exchange.producer",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "kind": 5,
+        "importPath": "03-exchange.producer",
+        "description": "03-exchange.producer",
+        "peekOfCode": "messages = [\n    {\n        \"severity\": \"error\",\n        \"msg\": \"Erro ao abrir o arquivo\",\n    },\n    {\n        \"severity\": \"error\",\n        \"msg\": \"Erro ao abrir o arquivo\",\n    },\n    {",
+        "detail": "03-exchange.producer",
+        "documentation": {}
+    },
+    {
+        "label": "connection_parameters",
+        "kind": 5,
+        "importPath": "03-exchange.rabbitmq_config",
+        "description": "03-exchange.rabbitmq_config",
+        "peekOfCode": "connection_parameters = pika.ConnectionParameters(\"localhost\")\nconnection_rmq = pika.BlockingConnection(connection_parameters)\nchannel = connection_rmq.channel()",
+        "detail": "03-exchange.rabbitmq_config",
+        "documentation": {}
+    },
+    {
+        "label": "connection_rmq",
+        "kind": 5,
+        "importPath": "03-exchange.rabbitmq_config",
+        "description": "03-exchange.rabbitmq_config",
+        "peekOfCode": "connection_rmq = pika.BlockingConnection(connection_parameters)\nchannel = connection_rmq.channel()",
+        "detail": "03-exchange.rabbitmq_config",
+        "documentation": {}
+    },
+    {
+        "label": "channel",
+        "kind": 5,
+        "importPath": "03-exchange.rabbitmq_config",
+        "description": "03-exchange.rabbitmq_config",
+        "peekOfCode": "channel = connection_rmq.channel()",
+        "detail": "03-exchange.rabbitmq_config",
+        "documentation": {}
+    },
+    {
+        "label": "connection",
+        "kind": 5,
+        "importPath": "04-overview.config",
+        "description": "04-overview.config",
+        "peekOfCode": "connection = pika.BlockingConnection(pika.ConnectionParameters(\"localhost\"))\n# O canal (channel) é uma abstração dentro da conexão que permite realizar operações específicas, como declarar filas, criar bindings, publicar e consumir mensagens. É através do canal que você realiza as principais interações com o RabbitMQ.\nchannel = connection.channel()",
+        "detail": "04-overview.config",
+        "documentation": {}
+    },
+    {
+        "label": "channel",
+        "kind": 5,
+        "importPath": "04-overview.config",
+        "description": "04-overview.config",
+        "peekOfCode": "channel = connection.channel()",
+        "detail": "04-overview.config",
+        "documentation": {}
+    },
+    {
+        "label": "logs_queues",
+        "kind": 5,
+        "importPath": "04-overview.constants",
+        "description": "04-overview.constants",
+        "peekOfCode": "logs_queues = [\n    {\"bind\": \"critical_log_bind\", \"queue\": \"critical_log_queue\"},\n    {\"bind\": \"general_log_bind\", \"queue\": \"general_log_queue\"},\n]\nlogs_messages = [\n    {\"severity\": \"critical\", \"msg\": \"Falha no banco\"},\n    {\"severity\": \"info\", \"msg\": \"Operação concluída com sucesso\"},\n    {\"severity\": \"error\", \"msg\": \"Erro de autenticação\"},\n    {\"severity\": \"info\", \"msg\": \"Registro adicionado ao banco de dados\"},\n    {\"severity\": \"error\", \"msg\": \"Conexão perdida com o servidor\"},",
+        "detail": "04-overview.constants",
+        "documentation": {}
+    },
+    {
+        "label": "logs_messages",
+        "kind": 5,
+        "importPath": "04-overview.constants",
+        "description": "04-overview.constants",
+        "peekOfCode": "logs_messages = [\n    {\"severity\": \"critical\", \"msg\": \"Falha no banco\"},\n    {\"severity\": \"info\", \"msg\": \"Operação concluída com sucesso\"},\n    {\"severity\": \"error\", \"msg\": \"Erro de autenticação\"},\n    {\"severity\": \"info\", \"msg\": \"Registro adicionado ao banco de dados\"},\n    {\"severity\": \"error\", \"msg\": \"Conexão perdida com o servidor\"},\n    {\"severity\": \"critical\", \"msg\": \"Sistema indisponível\"},\n    {\"severity\": \"info\", \"msg\": \"Atualização de software disponível\"},\n    {\"severity\": \"error\", \"msg\": \"Recurso não encontrado\"},\n    {\"severity\": \"critical\", \"msg\": \"Erro interno no servidor\"},",
+        "detail": "04-overview.constants",
+        "documentation": {}
+    },
+    {
+        "label": "ROUTING_LOG_KEY",
+        "kind": 5,
+        "importPath": "04-overview.constants",
+        "description": "04-overview.constants",
+        "peekOfCode": "ROUTING_LOG_KEY = \"logs_key\"",
+        "detail": "04-overview.constants",
+        "documentation": {}
+    },
+    {
+        "label": "on_receive_msg",
+        "kind": 2,
+        "importPath": "04-overview.consumer",
+        "description": "04-overview.consumer",
+        "peekOfCode": "def on_receive_msg(ch, method, properties, body):\n    payload = json.loads(body.decode())\n    print(f\"{payload['severity']}:{payload['msg']}\")\n    channel.basic_ack(delivery_tag=method.delivery_tag)\nchannel.exchange_declare(exchange=\"logs\", exchange_type=\"direct\", durable=True)\nfor queue in logs_queues:\n    channel.queue_declare(queue=queue[\"queue\"], durable=True)\n    channel.queue_bind(queue=queue[\"queue\"], routing_key=queue[\"bind\"], exchange=\"logs\")\nfor queue in logs_queues:\n    channel.basic_consume(queue=queue[\"queue\"], on_message_callback=on_receive_msg)",
+        "detail": "04-overview.consumer",
+        "documentation": {}
+    },
+    {
+        "label": "set_routing_key",
+        "kind": 2,
+        "importPath": "04-overview.producer",
+        "description": "04-overview.producer",
+        "peekOfCode": "def set_routing_key(severity: str):\n    return \"critical_log_bind\" if severity == \"critical\" else \"general_log_bind\"\nfor queue in logs_queues:\n    channel.queue_declare(queue=queue[\"queue\"], durable=True)\nfor msg in logs_messages:\n    channel.basic_publish(\n        exchange=\"logs\",\n        body=json.dumps(msg),\n        routing_key=set_routing_key(msg[\"severity\"]),\n        properties=pika.BasicProperties(delivery_mode=pika.DeliveryMode.Persistent),",
+        "detail": "04-overview.producer",
+        "documentation": {}
+    },
+    {
+        "label": "connection_rmq",
+        "kind": 5,
+        "importPath": "05-topic-exchange.config",
+        "description": "05-topic-exchange.config",
+        "peekOfCode": "connection_rmq = pika.BlockingConnection(pika.ConnectionParameters(\"localhost\"))\n# O canal (channel) é uma abstração dentro da conexão que permite realizar operações específicas, como declarar filas, criar bindings, publicar e consumir mensagens. É através do canal que você realiza as principais interações com o RabbitMQ.\nchannel = connection_rmq.channel()",
+        "detail": "05-topic-exchange.config",
+        "documentation": {}
+    },
+    {
+        "label": "channel",
+        "kind": 5,
+        "importPath": "05-topic-exchange.config",
+        "description": "05-topic-exchange.config",
+        "peekOfCode": "channel = connection_rmq.channel()",
+        "detail": "05-topic-exchange.config",
+        "documentation": {}
+    },
+    {
+        "label": "logs_queues",
+        "kind": 5,
+        "importPath": "05-topic-exchange.constants",
+        "description": "05-topic-exchange.constants",
+        "peekOfCode": "logs_queues = [\n    {\"bind\": \"*.critical\", \"queue\": \"critical_log_topic\"},\n    {\"bind\": \"log.*\", \"queue\": \"general_log_topic\"},\n]\nlogs_messages = [\n    {\"severity\": \"log.critical\", \"msg\": \"Falha no banco\"},\n    {\"severity\": \"log.info\", \"msg\": \"Operação concluída com sucesso\"},\n    {\"severity\": \"log.error\", \"msg\": \"Erro de autenticação\"},\n    {\"severity\": \"log.info\", \"msg\": \"Registro adicionado ao banco de dados\"},\n    {\"severity\": \"log.error\", \"msg\": \"Conexão perdida com o servidor\"},",
+        "detail": "05-topic-exchange.constants",
+        "documentation": {}
+    },
+    {
+        "label": "logs_messages",
+        "kind": 5,
+        "importPath": "05-topic-exchange.constants",
+        "description": "05-topic-exchange.constants",
+        "peekOfCode": "logs_messages = [\n    {\"severity\": \"log.critical\", \"msg\": \"Falha no banco\"},\n    {\"severity\": \"log.info\", \"msg\": \"Operação concluída com sucesso\"},\n    {\"severity\": \"log.error\", \"msg\": \"Erro de autenticação\"},\n    {\"severity\": \"log.info\", \"msg\": \"Registro adicionado ao banco de dados\"},\n    {\"severity\": \"log.error\", \"msg\": \"Conexão perdida com o servidor\"},\n    {\"severity\": \"log.critical\", \"msg\": \"Sistema indisponível\"},\n    {\"severity\": \"log.info\", \"msg\": \"Atualização de software disponível\"},\n    {\"severity\": \"log.error\", \"msg\": \"Recurso não encontrado\"},\n    {\"severity\": \"log.critical\", \"msg\": \"Erro interno no servidor\"},",
+        "detail": "05-topic-exchange.constants",
+        "documentation": {}
+    },
+    {
+        "label": "on_receive_msg",
+        "kind": 2,
+        "importPath": "05-topic-exchange.consumer",
+        "description": "05-topic-exchange.consumer",
+        "peekOfCode": "def on_receive_msg(ch, method, properties, body):\n    payload = json.loads(body.decode())\n    print(f\"{method.routing_key} - {payload['severity']}:{payload['msg']}\")\n    ch.basic_ack(delivery_tag=method.delivery_tag)\ntry:\n    channel.exchange_declare(exchange=\"topic_logs\", exchange_type=\"topic\", durable=True)\n    for queue in logs_queues:\n        channel.queue_declare(queue=queue[\"queue\"], durable=True)\n        channel.queue_bind(\n            queue=queue[\"queue\"], routing_key=queue[\"bind\"], exchange=\"topic_logs\"",
+        "detail": "05-topic-exchange.consumer",
+        "documentation": {}
+    },
+    {
+        "label": "ClientOperationConsumer",
+        "kind": 6,
+        "importPath": "06-rpc.client_consumer",
+        "description": "06-rpc.client_consumer",
+        "peekOfCode": "class ClientOperationConsumer:\n    def __init__(self, correlation_id, reply_to, rmq) -> None:\n        self.__correlation_id = correlation_id\n        self.__temporary_queue = reply_to\n        self.response = None\n        self.__rmq = rmq\n        self.__rmq.channel.basic_consume(\n            queue=self.__temporary_queue,\n            on_message_callback=self.__on_response,\n            auto_ack=True,",
+        "detail": "06-rpc.client_consumer",
+        "documentation": {}
+    },
+    {
+        "label": "rmq",
+        "kind": 5,
+        "importPath": "06-rpc.composer",
+        "description": "06-rpc.composer",
+        "peekOfCode": "rmq = RabbitMQConfig()\noperations_rpc_producer = OperationsRpcClientProducer(\n    exchange_name=\"rpc_exchange\",\n    exchange_type=\"direct\",\n    routing_key=\"rpc_queue_bind\",\n    rmq=rmq,\n)\ncorrelation_id, reply_to = operations_rpc_producer.send_request(5)\nclient_consumer = ClientOperationConsumer(correlation_id, reply_to, rmq=rmq)\nclient_consumer.wait_for_response()",
+        "detail": "06-rpc.composer",
+        "documentation": {}
+    },
+    {
+        "label": "operations_rpc_producer",
+        "kind": 5,
+        "importPath": "06-rpc.composer",
+        "description": "06-rpc.composer",
+        "peekOfCode": "operations_rpc_producer = OperationsRpcClientProducer(\n    exchange_name=\"rpc_exchange\",\n    exchange_type=\"direct\",\n    routing_key=\"rpc_queue_bind\",\n    rmq=rmq,\n)\ncorrelation_id, reply_to = operations_rpc_producer.send_request(5)\nclient_consumer = ClientOperationConsumer(correlation_id, reply_to, rmq=rmq)\nclient_consumer.wait_for_response()",
+        "detail": "06-rpc.composer",
+        "documentation": {}
+    },
+    {
+        "label": "client_consumer",
+        "kind": 5,
+        "importPath": "06-rpc.composer",
+        "description": "06-rpc.composer",
+        "peekOfCode": "client_consumer = ClientOperationConsumer(correlation_id, reply_to, rmq=rmq)\nclient_consumer.wait_for_response()",
+        "detail": "06-rpc.composer",
+        "documentation": {}
+    },
+    {
+        "label": "RabbitMQConfig",
+        "kind": 6,
+        "importPath": "06-rpc.config",
+        "description": "06-rpc.config",
+        "peekOfCode": "class RabbitMQConfig:\n    def __init__(self, host=\"localhost\", username=\"guest\", password=\"guest\") -> None:\n        self.__user_credentials = pika.PlainCredentials(username, password)\n        self.__host = host\n        self.connection = pika.BlockingConnection(\n            pika.ConnectionParameters(host=self.__host, credentials=self.__user_credentials)\n        )\n        self.channel = self.connection.channel()\n    def basic_properties(self, reply_to: str, correlation_id: str):\n        return pika.BasicProperties(reply_to=reply_to, correlation_id=correlation_id)",
+        "detail": "06-rpc.config",
+        "documentation": {}
+    },
+    {
+        "label": "EXCHANGE_NAME",
+        "kind": 5,
+        "importPath": "06-rpc.consts",
+        "description": "06-rpc.consts",
+        "peekOfCode": "EXCHANGE_NAME = \"rpc_exchange\"\nEXCHANGE_TYPE = \"direct\"\noperations = [{\"n1\": 5, \"n2\": 2}]",
+        "detail": "06-rpc.consts",
+        "documentation": {}
+    },
+    {
+        "label": "EXCHANGE_TYPE",
+        "kind": 5,
+        "importPath": "06-rpc.consts",
+        "description": "06-rpc.consts",
+        "peekOfCode": "EXCHANGE_TYPE = \"direct\"\noperations = [{\"n1\": 5, \"n2\": 2}]",
+        "detail": "06-rpc.consts",
+        "documentation": {}
+    },
+    {
+        "label": "operations",
+        "kind": 5,
+        "importPath": "06-rpc.consts",
+        "description": "06-rpc.consts",
+        "peekOfCode": "operations = [{\"n1\": 5, \"n2\": 2}]",
+        "detail": "06-rpc.consts",
+        "documentation": {}
+    },
+    {
+        "label": "RpcClientProducer",
+        "kind": 6,
+        "importPath": "06-rpc.producer",
+        "description": "06-rpc.producer",
+        "peekOfCode": "class RpcClientProducer:\n    def __init__(\n        self,\n        exchange_name: str = EXCHANGE_NAME,\n        exchange_type: str = EXCHANGE_TYPE,\n        routing_key: str = \"\",\n    ):\n        self.exchange_name = exchange_name\n        self.exchange_type = exchange_type\n        self.routing_key = routing_key",
+        "detail": "06-rpc.producer",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_factorial",
+        "kind": 2,
+        "importPath": "06-rpc.server_consumer",
+        "description": "06-rpc.server_consumer",
+        "peekOfCode": "def calculate_factorial(n):\n    return math.factorial(n)\ndef on_request(ch, method, props, body):\n    n = int(body)\n    print(f\" [.] Calculating factorial({n})\")\n    # Envia a resposta para a fila reply_to com o mesmo correlation_id\n    response = calculate_factorial(n)\n    print(\n        f\"Sending response to {props.reply_to} with correlation_id {props.correlation_id}\"\n    )",
+        "detail": "06-rpc.server_consumer",
+        "documentation": {}
+    },
+    {
+        "label": "on_request",
+        "kind": 2,
+        "importPath": "06-rpc.server_consumer",
+        "description": "06-rpc.server_consumer",
+        "peekOfCode": "def on_request(ch, method, props, body):\n    n = int(body)\n    print(f\" [.] Calculating factorial({n})\")\n    # Envia a resposta para a fila reply_to com o mesmo correlation_id\n    response = calculate_factorial(n)\n    print(\n        f\"Sending response to {props.reply_to} with correlation_id {props.correlation_id}\"\n    )\n    rmq.channel.basic_publish(\n        exchange=\"\",",
+        "detail": "06-rpc.server_consumer",
+        "documentation": {}
+    },
+    {
+        "label": "rmq",
+        "kind": 5,
+        "importPath": "06-rpc.server_consumer",
+        "description": "06-rpc.server_consumer",
+        "peekOfCode": "rmq = RabbitMQConfig()\nqueue_name = \"rpc_queue\"\nqueue_bind = \"rpc_queue_bind\"\n# rmq.channel.exchange_declare(exchange=EXCHANGE_NAME, exchange_type=EXCHANGE_TYPE)\nrmq.channel.queue_declare(queue=queue_name)\n# rmq.channel.queue_bind(queue=queue_name, routing_key=queue_bind, exchange=EXCHANGE_NAME)\nrmq.channel.basic_qos(prefetch_count=1)\nrmq.channel.basic_consume(queue=queue_name, on_message_callback=on_request)\nprint(\" [x] Awaiting RPC requests\")\nrmq.channel.start_consuming()",
+        "detail": "06-rpc.server_consumer",
+        "documentation": {}
+    },
+    {
+        "label": "queue_name",
+        "kind": 5,
+        "importPath": "06-rpc.server_consumer",
+        "description": "06-rpc.server_consumer",
+        "peekOfCode": "queue_name = \"rpc_queue\"\nqueue_bind = \"rpc_queue_bind\"\n# rmq.channel.exchange_declare(exchange=EXCHANGE_NAME, exchange_type=EXCHANGE_TYPE)\nrmq.channel.queue_declare(queue=queue_name)\n# rmq.channel.queue_bind(queue=queue_name, routing_key=queue_bind, exchange=EXCHANGE_NAME)\nrmq.channel.basic_qos(prefetch_count=1)\nrmq.channel.basic_consume(queue=queue_name, on_message_callback=on_request)\nprint(\" [x] Awaiting RPC requests\")\nrmq.channel.start_consuming()",
+        "detail": "06-rpc.server_consumer",
+        "documentation": {}
+    },
+    {
+        "label": "queue_bind",
+        "kind": 5,
+        "importPath": "06-rpc.server_consumer",
+        "description": "06-rpc.server_consumer",
+        "peekOfCode": "queue_bind = \"rpc_queue_bind\"\n# rmq.channel.exchange_declare(exchange=EXCHANGE_NAME, exchange_type=EXCHANGE_TYPE)\nrmq.channel.queue_declare(queue=queue_name)\n# rmq.channel.queue_bind(queue=queue_name, routing_key=queue_bind, exchange=EXCHANGE_NAME)\nrmq.channel.basic_qos(prefetch_count=1)\nrmq.channel.basic_consume(queue=queue_name, on_message_callback=on_request)\nprint(\" [x] Awaiting RPC requests\")\nrmq.channel.start_consuming()",
+        "detail": "06-rpc.server_consumer",
+        "documentation": {}
+    },
+    {
+        "label": "RabbitMQConfig",
+        "kind": 6,
+        "importPath": "07-app.src.configs.rabbitmq_config",
+        "description": "07-app.src.configs.rabbitmq_config",
+        "peekOfCode": "class RabbitMQConfig:\n    def __init__(self, host=\"localhost\", username=\"guest\", password=\"guest\") -> None:\n        self.__user_credentials = pika.PlainCredentials(username, password)\n        self.__host = host\n        self.connection = None\n        self.channel = None\n    def __enter__(self):\n        self.connection = pika.BlockingConnection(\n            pika.ConnectionParameters(\n                host=self.__host, credentials=self.__user_credentials",
+        "detail": "07-app.src.configs.rabbitmq_config",
+        "documentation": {}
+    },
+    {
+        "label": "PokeAPI",
+        "kind": 6,
+        "importPath": "07-app.src.controller.pokemon",
+        "description": "07-app.src.controller.pokemon",
+        "peekOfCode": "class PokeAPI:\n    def get_pokemons(self):\n        result = requests.get(\"https://pokeapi.co/api/v2/pokemon?limit=50\")\n        return [pokemon[\"name\"] for pokemon in result.json()[\"results\"]]\n    def get_pokemon_and_abilities(self, pokemons):\n        result = [\n            {\"pokemon\": pokemon, \"abilities\": self.__get_abilities(pokemon)}\n            for pokemon in pokemons\n        ]\n        return result",
+        "detail": "07-app.src.controller.pokemon",
+        "documentation": {}
+    },
+    {
+        "label": "PokemonServiceProducer",
+        "kind": 6,
+        "importPath": "07-app.src.services.pokemon.pokemon_service",
+        "description": "07-app.src.services.pokemon.pokemon_service",
+        "peekOfCode": "class PokemonServiceProducer:\n    def __init__(self) -> None:\n        self.controller = PokeAPI()\n        self.producer = RpcClientProducer(\"pokemon_queue\", \"pokemon_exchange\")\n    def send_pokemons_to_get_ability(self):\n        pokemons = self.controller.get_pokemons()\n        payload = (pokemons, \"get abilities\")\n        response = self.producer.call(payload, \"get_abilities\")\n        return response\nclass PokemonServiceConsumer:",
+        "detail": "07-app.src.services.pokemon.pokemon_service",
+        "documentation": {}
+    },
+    {
+        "label": "PokemonServiceConsumer",
+        "kind": 6,
+        "importPath": "07-app.src.services.pokemon.pokemon_service",
+        "description": "07-app.src.services.pokemon.pokemon_service",
+        "peekOfCode": "class PokemonServiceConsumer:\n    def __init__(self) -> None:\n        self.controller = PokeAPI()\n        self.consumer = RPCClientConsumer(\"pokemon_queue\", \"pokemon_exchange\")\n    def get_abilities_and_pokemons(self):\n        self.consumer.start_consuming(\n            \"get_abilities\", self.controller.get_pokemon_and_abilities\n        )",
+        "detail": "07-app.src.services.pokemon.pokemon_service",
+        "documentation": {}
+    },
+    {
+        "label": "rmq",
+        "kind": 5,
+        "importPath": "07-app.src.services.pokemon.pokemon_service",
+        "description": "07-app.src.services.pokemon.pokemon_service",
+        "peekOfCode": "rmq = RabbitMQConfig()\nclass PokemonServiceProducer:\n    def __init__(self) -> None:\n        self.controller = PokeAPI()\n        self.producer = RpcClientProducer(\"pokemon_queue\", \"pokemon_exchange\")\n    def send_pokemons_to_get_ability(self):\n        pokemons = self.controller.get_pokemons()\n        payload = (pokemons, \"get abilities\")\n        response = self.producer.call(payload, \"get_abilities\")\n        return response",
+        "detail": "07-app.src.services.pokemon.pokemon_service",
+        "documentation": {}
+    },
+    {
+        "label": "RPCClientConsumer",
+        "kind": 6,
+        "importPath": "07-app.src.services.rabbitmq.consumer",
+        "description": "07-app.src.services.rabbitmq.consumer",
+        "peekOfCode": "class RPCClientConsumer:\n    def __init__(self, queue_name: str, exchange_name):\n        self.queue = queue_name\n        self.exchange = exchange_name\n        self.rmq_config = RabbitMQConfig()\n        self.action = None\n    def __on_request(self, ch, method, props, body):\n        payload, description = json.loads(body)\n        print(f\"{description}\")\n        response = self.action(payload)",
+        "detail": "07-app.src.services.rabbitmq.consumer",
+        "documentation": {}
+    },
+    {
+        "label": "RpcClientProducer",
+        "kind": 6,
+        "importPath": "07-app.src.services.rabbitmq.producer",
+        "description": "07-app.src.services.rabbitmq.producer",
+        "peekOfCode": "class RpcClientProducer:\n    def __init__(self, queue_name: str, exchange_name):\n        self.queue_name = queue_name\n        self.rmq_config = RabbitMQConfig()\n        self.correlation_id = None\n        self.response = None\n        self.callback_queue = None\n        self.exchange = exchange_name\n    def on_response(self, ch, method, props, body):\n        if self.correlation_id == props.correlation_id:",
+        "detail": "07-app.src.services.rabbitmq.producer",
+        "documentation": {}
+    },
+    {
+        "label": "pokemon_service",
+        "kind": 5,
+        "importPath": "07-app.consumers",
+        "description": "07-app.consumers",
+        "peekOfCode": "pokemon_service = PokemonServiceConsumer()\npokemon_service.get_abilities_and_pokemons()",
+        "detail": "07-app.consumers",
+        "documentation": {}
+    },
+    {
+        "label": "pokemon_service",
+        "kind": 5,
+        "importPath": "07-app.producers",
+        "description": "07-app.producers",
+        "peekOfCode": "pokemon_service = PokemonServiceProducer()\nresponse = pokemon_service.send_pokemons_to_get_ability()\nprint(response)",
+        "detail": "07-app.producers",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "07-app.producers",
+        "description": "07-app.producers",
+        "peekOfCode": "response = pokemon_service.send_pokemons_to_get_ability()\nprint(response)",
+        "detail": "07-app.producers",
+        "documentation": {}
+    }
+]
